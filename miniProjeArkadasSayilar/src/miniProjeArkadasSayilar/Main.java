@@ -25,7 +25,7 @@ public class Main {
 		
 		if(toplam1==girilenSayi2&&toplam2==girilenSayi1) 
 		{
-			System.out.println("ARKADAÞ SAYI GÝRDÝNÝZ");
+			System.out.println("ARKADAÞ SAYI GÝRDÝNÝZZ");
 		}
 		else 
 		{
