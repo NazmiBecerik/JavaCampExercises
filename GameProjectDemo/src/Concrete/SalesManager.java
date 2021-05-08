@@ -31,7 +31,7 @@ public class SalesManager implements SalesService
 	{
 		
 		System.out.println(game.getName()+" adlý oyunu "+campaign.getName()+" kampanyasý ile "+gamer.getFirtsName()+" satýn adlý. Teþekkürler "+gamer.getFirtsName()+" Oyun ücreti ektedir.");
-		System.out.println("Alýþveriþ tutarýnýz : "+(game.getPrice()-(campaign.getDiscount()/100)));
+		System.out.println("Alýþveriþ tutarýnýz : "+(game.getPrice()-(game.getPrice()*campaign.getDiscount()/100)));
 		
 	
 	}
