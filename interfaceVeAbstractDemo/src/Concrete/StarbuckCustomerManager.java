@@ -11,7 +11,6 @@ public class StarbuckCustomerManager extends BaseCustomerManager
 	{
 		this.checkService=checkService;
 	}
-
 	@Override
 	public void save(Customer customer) 
 	{
@@ -19,10 +18,9 @@ public class StarbuckCustomerManager extends BaseCustomerManager
 		{
 			System.out.println("Starbuck Müþterisi : "+customer.getFirstName()+" Kaydedildi");
 		}
-		else 
+		else   
 		{
 			System.out.println("Kiþi bilgileri doðrulanmamýþtýr.");
 		}
 	}
-	
 }
