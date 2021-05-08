@@ -19,7 +19,8 @@ public class GameManager implements GameService
 	}
 
 	@Override
-	public void update(Game game) {
+	public void update(Game game)
+	{
 		System.out.println("Kütüphanenizde bir adet oyun güncellendi  : "+game.getName());
 		
 	}
